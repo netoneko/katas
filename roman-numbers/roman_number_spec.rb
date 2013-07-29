@@ -28,4 +28,6 @@ describe RomanNumber do
   it { 1989.to_roman.should == "MCMLXXXIX" }
 
   it { 292.to_roman.should == "CCXCII" }
+
+  it { 9.2.to_i.to_roman.should == "IX" }
 end
