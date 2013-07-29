@@ -22,4 +22,8 @@ describe RomanNumber do
   it { RomanNumber.new(4).value.should == "IV" }
 
   it { RomanNumber.new(79).value.should == "LXXIX" }
+
+  it { RomanNumber.new(39).value.should == "XXXIX" }
+
+  it { RomanNumber.new(1989).value.should == "MCMLXXXIX" }
 end
